@@ -8,7 +8,7 @@
     <owners>protagonistlabs</owners>
     <projectUrl>https://protagonistlabs.app/sysoptimizer/</projectUrl>
     <iconUrl>https://protagonistlabs.app/icons/sysoptimizer.png</iconUrl>
-    <licenseUrl>https://github.com/limburatorul/sysoptimizer/blob/main/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/limburatorul/sysoptimizer/blob/HEAD/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/limburatorul/sysoptimizer</projectSourceUrl>
     <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/sysoptimizer</packageSourceUrl>

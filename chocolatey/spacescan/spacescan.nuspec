@@ -8,7 +8,7 @@
     <owners>protagonistlabs</owners>
     <projectUrl>https://protagonistlabs.app/spacescan/</projectUrl>
     <iconUrl>https://protagonistlabs.app/icons/spacescan.png</iconUrl>
-    <licenseUrl>https://github.com/limburatorul/spacescan/blob/main/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/limburatorul/spacescan/blob/HEAD/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/limburatorul/spacescan</projectSourceUrl>
     <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/spacescan</packageSourceUrl>

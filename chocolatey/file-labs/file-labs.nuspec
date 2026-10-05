@@ -8,7 +8,7 @@
     <owners>protagonistlabs</owners>
     <projectUrl>https://protagonistlabs.app/filelabs/</projectUrl>
     <iconUrl>https://protagonistlabs.app/icons/filelabs.png</iconUrl>
-    <licenseUrl>https://github.com/limburatorul/file-labs/blob/main/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/limburatorul/file-labs/blob/HEAD/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/limburatorul/file-labs</projectSourceUrl>
     <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/file-labs</packageSourceUrl>

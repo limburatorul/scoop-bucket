@@ -8,7 +8,7 @@
     <owners>protagonistlabs</owners>
     <projectUrl>https://protagonistlabs.app/backuplabs/</projectUrl>
     <iconUrl>https://protagonistlabs.app/icons/backuplabs.png</iconUrl>
-    <licenseUrl>https://github.com/limburatorul/backup-labs/blob/main/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/limburatorul/backup-labs/blob/HEAD/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/limburatorul/backup-labs</projectSourceUrl>
     <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/backup-labs</packageSourceUrl>

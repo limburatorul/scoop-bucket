@@ -54,7 +54,7 @@ def package(app):
     <owners>protagonistlabs</owners>
     <projectUrl>{site}</projectUrl>
     <iconUrl>https://protagonistlabs.app/icons/{app}.png</iconUrl>
-    <licenseUrl>{gh}/blob/main/LICENSE</licenseUrl>
+    <licenseUrl>{gh}/blob/HEAD/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>{gh}</projectSourceUrl>
     <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/{cid}</packageSourceUrl>

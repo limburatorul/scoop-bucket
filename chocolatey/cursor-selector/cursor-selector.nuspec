@@ -8,7 +8,7 @@
     <owners>protagonistlabs</owners>
     <projectUrl>https://protagonistlabs.app/cursorselector/</projectUrl>
     <iconUrl>https://protagonistlabs.app/icons/cursorselector.png</iconUrl>
-    <licenseUrl>https://github.com/limburatorul/cursor-selector/blob/main/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/limburatorul/cursor-selector/blob/HEAD/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/limburatorul/cursor-selector</projectSourceUrl>
     <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/cursor-selector</packageSourceUrl>

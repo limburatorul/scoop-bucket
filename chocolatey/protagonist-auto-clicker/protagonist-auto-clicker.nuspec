@@ -8,7 +8,7 @@
     <owners>protagonistlabs</owners>
     <projectUrl>https://protagonistlabs.app/autoclicker/</projectUrl>
     <iconUrl>https://protagonistlabs.app/icons/autoclicker.png</iconUrl>
-    <licenseUrl>https://github.com/limburatorul/auto-clicker/blob/main/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/limburatorul/auto-clicker/blob/HEAD/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/limburatorul/auto-clicker</projectSourceUrl>
     <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/protagonist-auto-clicker</packageSourceUrl>

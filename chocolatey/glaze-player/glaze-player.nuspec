@@ -8,7 +8,7 @@
     <owners>protagonistlabs</owners>
     <projectUrl>https://protagonistlabs.app/glaze/</projectUrl>
     <iconUrl>https://protagonistlabs.app/icons/glaze.png</iconUrl>
-    <licenseUrl>https://github.com/limburatorul/glaze/blob/main/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/limburatorul/glaze/blob/HEAD/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/limburatorul/glaze</projectSourceUrl>
     <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/glaze-player</packageSourceUrl>

@@ -8,7 +8,7 @@
     <owners>protagonistlabs</owners>
     <projectUrl>https://protagonistlabs.app/steamradar/</projectUrl>
     <iconUrl>https://protagonistlabs.app/icons/steamradar.png</iconUrl>
-    <licenseUrl>https://github.com/limburatorul/steamradar/blob/main/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/limburatorul/steamradar/blob/HEAD/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/limburatorul/steamradar</projectSourceUrl>
     <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/steamradar</packageSourceUrl>

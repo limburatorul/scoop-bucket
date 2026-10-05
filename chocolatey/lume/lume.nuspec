@@ -8,7 +8,7 @@
     <owners>protagonistlabs</owners>
     <projectUrl>https://protagonistlabs.app/lume/</projectUrl>
     <iconUrl>https://protagonistlabs.app/icons/lume.png</iconUrl>
-    <licenseUrl>https://github.com/limburatorul/lume/blob/main/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/limburatorul/lume/blob/HEAD/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/limburatorul/lume</projectSourceUrl>
     <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/lume</packageSourceUrl>

@@ -8,7 +8,7 @@
     <owners>protagonistlabs</owners>
     <projectUrl>https://protagonistlabs.app/hotkeyscan/</projectUrl>
     <iconUrl>https://protagonistlabs.app/icons/hotkeyscan.png</iconUrl>
-    <licenseUrl>https://github.com/limburatorul/hotkeyscan/blob/main/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/limburatorul/hotkeyscan/blob/HEAD/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/limburatorul/hotkeyscan</projectSourceUrl>
     <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/hotkeyscan</packageSourceUrl>
