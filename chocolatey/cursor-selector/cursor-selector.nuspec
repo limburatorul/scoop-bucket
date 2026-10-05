@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>cursor-selector</id>
+    <version>1.0.2</version>
+    <title>Cursor Selector</title>
+    <authors>Protagonist Labs</authors>
+    <owners>protagonistlabs</owners>
+    <projectUrl>https://protagonistlabs.app/cursorselector/</projectUrl>
+    <iconUrl>https://protagonistlabs.app/icons/cursorselector.png</iconUrl>
+    <licenseUrl>https://github.com/limburatorul/cursor-selector/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/limburatorul/cursor-selector</projectSourceUrl>
+    <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/cursor-selector</packageSourceUrl>
+    <bugTrackerUrl>https://github.com/limburatorul/cursor-selector/issues</bugTrackerUrl>
+    <releaseNotes>https://github.com/limburatorul/cursor-selector/releases/tag/v1.0.2</releaseNotes>
+    <tags>cursor-changer mouse-cursor cursor-pack cursor-theme windows-11 customization windows foss</tags>
+    <summary>Preview all 17 cursor roles of a scheme, then apply it in one click.</summary>
+    <description>Cursor Selector is a free, open-source Windows app for changing the mouse cursor.
+
+Windows has seventeen cursor roles, and most cursor packs show you one arrow. Cursor Selector draws all seventeen from the real files, the animated ones moving, so you see the whole scheme before anything changes. One click applies it, with no restart and no sign-out, and one button puts your previous cursors back.
+
+Seventeen open-source schemes come in the download, among them Bibata, macOS, XCursor Pro, GoogleDot, Windows Modern, Material Design and Qogir. A pack you downloaded is imported by dropping its .zip, or its folder, on the window.
+
+It is portable: nothing to install and no administrator rights. MIT licence, no ads, no telemetry.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

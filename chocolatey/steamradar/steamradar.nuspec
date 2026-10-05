@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>steamradar</id>
+    <version>0.6.0</version>
+    <title>SteamRadar</title>
+    <authors>Protagonist Labs</authors>
+    <owners>protagonistlabs</owners>
+    <projectUrl>https://protagonistlabs.app/steamradar/</projectUrl>
+    <iconUrl>https://protagonistlabs.app/icons/steamradar.png</iconUrl>
+    <licenseUrl>https://github.com/limburatorul/steamradar/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/limburatorul/steamradar</projectSourceUrl>
+    <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/steamradar</packageSourceUrl>
+    <bugTrackerUrl>https://github.com/limburatorul/steamradar/issues</bugTrackerUrl>
+    <releaseNotes>https://github.com/limburatorul/steamradar/releases/tag/v0.6.0</releaseNotes>
+    <tags>steam-deals price-drop-alert gog-deals epic-free-games game-deals price-tracker windows foss</tags>
+    <summary>Free alerts when a Steam or GOG game goes free or under your price.</summary>
+    <description>SteamRadar is a free, open-source Windows app that watches Steam, GOG and Epic and tells you when a game goes free or drops under the price you set.
+
+The tiers are free, under 5 and under 10, in your store's own currency. A full sweep covers about 10,800 discounted Steam and GOG offers. A game raises an alert only when it drops into a better tier than the one it was in, not for as long as it stays there, and alerts can arrive grouped per tier or one per game.
+
+The watchlist alerts on drops that reach no tier, optionally with a target price, and every watched game gets a stepped chart of its price over time. The Epic section lists the games Epic gives away: the ones you can claim now and the ones announced for the coming weeks, with their exact dates.
+
+SteamRadar runs in the tray, uses native Windows notifications and updates itself. It is one portable .exe, with no account and no login to any store. GPL-3.0, source on GitHub.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

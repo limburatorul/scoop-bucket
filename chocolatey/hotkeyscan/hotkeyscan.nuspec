@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>hotkeyscan</id>
+    <version>1.0.3</version>
+    <title>HotkeyScan</title>
+    <authors>Protagonist Labs</authors>
+    <owners>protagonistlabs</owners>
+    <projectUrl>https://protagonistlabs.app/hotkeyscan/</projectUrl>
+    <iconUrl>https://protagonistlabs.app/icons/hotkeyscan.png</iconUrl>
+    <licenseUrl>https://github.com/limburatorul/hotkeyscan/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/limburatorul/hotkeyscan</projectSourceUrl>
+    <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/hotkeyscan</packageSourceUrl>
+    <bugTrackerUrl>https://github.com/limburatorul/hotkeyscan/issues</bugTrackerUrl>
+    <releaseNotes>https://github.com/limburatorul/hotkeyscan/releases/tag/v1.0.3</releaseNotes>
+    <tags>hotkey keyboard-shortcut hotkey-conflict which-program-uses-hotkey registerhotkey windows windows foss</tags>
+    <summary>Find what program is holding a hotkey on Windows, with the evidence.</summary>
+    <description>HotkeyScan is a free, open-source Windows app that finds which program is holding a key combination.
+
+Windows refuses a shortcut that is already taken and never says who took it. HotkeyScan collects what can be known, in four layers, most certain first: a kernel RegisterHotKey probe; the table of shortcuts Windows reserves for itself; the hotkeys PowerToys, ShareX, OBS and AutoHotkey declare in their settings; and a live press test that runs only if you ask for it. The verdict keeps each layer on its own line and says which one spoke; when the owner cannot be seen, it says unknown and does not guess.
+
+Scan them all sweeps 761 combinations and can keep only the ones held by an owner Windows will not name. A separate Key monitor shows one key three ways (raw input, window messages, hook chain), to tell a faulty key from a program swallowing it.
+
+One 64-bit .exe with the .NET runtime inside: nothing to install, no administrator rights. MIT licence, no ads, no telemetry.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

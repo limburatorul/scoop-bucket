@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>spacescan</id>
+    <version>1.0.0</version>
+    <title>SpaceScan</title>
+    <authors>Protagonist Labs</authors>
+    <owners>protagonistlabs</owners>
+    <projectUrl>https://protagonistlabs.app/spacescan/</projectUrl>
+    <iconUrl>https://protagonistlabs.app/icons/spacescan.png</iconUrl>
+    <licenseUrl>https://github.com/limburatorul/spacescan/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/limburatorul/spacescan</projectSourceUrl>
+    <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/spacescan</packageSourceUrl>
+    <bugTrackerUrl>https://github.com/limburatorul/spacescan/issues</bugTrackerUrl>
+    <releaseNotes>https://github.com/limburatorul/spacescan/releases/tag/v1.0.0</releaseNotes>
+    <tags>disk-space-analyzer disk-usage folder-size duplicate-finder windows-11 ntfs open-source windows foss</tags>
+    <summary>Free disk space analyzer: reads the NTFS MFT, maps a drive in seconds.</summary>
+    <description>SpaceScan is a free, open-source disk space analyzer for Windows 10 and 11. It finds what is filling up a drive. On NTFS it reads the Master File Table directly, so a whole drive, a 10 TB one included, is mapped in seconds.
+
+A folder tree with size bars, percentages and file counts; file types, and the same totals grouped into categories; the largest files, and search by name, size or age; a duplicate finder with the space you would get back.
+
+Every scan is stored automatically, so a scan can be compared with an earlier one to see what grew. Delete, copy and move from the results, several items at once. HTML and CSV export, exclusion rules, and a command line for scheduled reports. Right-click integration for Explorer and File Labs.
+
+Per-user installer, no UAC prompt; reading the MFT needs administrator rights, which the app asks for only when a scan needs them. No account, no telemetry. MIT licence.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

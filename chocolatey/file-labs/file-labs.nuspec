@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>file-labs</id>
+    <version>1.0.25</version>
+    <title>File Labs</title>
+    <authors>Protagonist Labs</authors>
+    <owners>protagonistlabs</owners>
+    <projectUrl>https://protagonistlabs.app/filelabs/</projectUrl>
+    <iconUrl>https://protagonistlabs.app/icons/filelabs.png</iconUrl>
+    <licenseUrl>https://github.com/limburatorul/file-labs/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/limburatorul/file-labs</projectSourceUrl>
+    <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/file-labs</packageSourceUrl>
+    <bugTrackerUrl>https://github.com/limburatorul/file-labs/issues</bugTrackerUrl>
+    <releaseNotes>https://github.com/limburatorul/file-labs/releases/tag/v1.0.25</releaseNotes>
+    <tags>file-manager dual-pane file-explorer-alternative copy-files windows-11 open-source windows foss</tags>
+    <summary>Dual-pane file manager whose copies ask about conflicts once.</summary>
+    <description>File Labs is a free, open-source dual-pane file manager for Windows 11.
+
+Two panes with tabs on both sides, folder sizes in the list, and Quick View on Space for images, video, audio, PDF, text, zip listings and fonts.
+
+Copies and moves go through its own engine. It scans first, so the totals and every conflict are known before the first byte moves; every conflict is answered once, in one list (keep both, replace if newer, replace, skip); then the transfer runs without stopping to ask, with a live speed chart, pause and cancel. Each copy can be verified against its source with xxHash3.
+
+File Labs can take over as the default file manager for folders, drives and Win+E, for your user only, and hands the role back when you switch it off.
+
+Per-user installer. No account and no telemetry; the only connection it makes is an update check on GitHub. MIT licence.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

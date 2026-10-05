@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>backup-labs</id>
+    <version>1.0.4</version>
+    <title>Backup Labs</title>
+    <authors>Protagonist Labs</authors>
+    <owners>protagonistlabs</owners>
+    <projectUrl>https://protagonistlabs.app/backuplabs/</projectUrl>
+    <iconUrl>https://protagonistlabs.app/icons/backuplabs.png</iconUrl>
+    <licenseUrl>https://github.com/limburatorul/backup-labs/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/limburatorul/backup-labs</projectSourceUrl>
+    <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/backup-labs</packageSourceUrl>
+    <bugTrackerUrl>https://github.com/limburatorul/backup-labs/issues</bugTrackerUrl>
+    <releaseNotes>https://github.com/limburatorul/backup-labs/releases/tag/v1.0.4</releaseNotes>
+    <tags>backup-software file-backup incremental-backup windows-11 external-hard-drive encrypted-backup open-source windows foss</tags>
+    <summary>Free incremental backup to an external drive or NAS, any version back.</summary>
+    <description>Backup Labs is free, open-source backup software for Windows 11. It backs up files, folders or whole drives to an external hard drive, a USB stick or a network share on a NAS, automatically.
+
+Incremental backups you can browse: every backup is a complete folder named by its date, and a file that did not change is an NTFS hard link to the copy already there, so it takes no extra space. A job can write zip archives instead, or archives encrypted with AES-256-GCM.
+
+Backups run on a schedule, from hourly to weekly, in real time a minute after files change, or when the backup drive is plugged in. Smart retention keeps a day of everything, a month of dailies and a year of weeklies. Files held open by other programs, such as an Outlook .pst, are read from a Volume Shadow Copy.
+
+Restore a whole backup, or search every backup for one file and bring back any version of it.
+
+Per-user installer that updates itself. No account, no cloud, no telemetry. MIT licence.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

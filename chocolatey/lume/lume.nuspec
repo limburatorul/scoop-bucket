@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>lume</id>
+    <version>0.1.10</version>
+    <title>Lume</title>
+    <authors>Protagonist Labs</authors>
+    <owners>protagonistlabs</owners>
+    <projectUrl>https://protagonistlabs.app/lume/</projectUrl>
+    <iconUrl>https://protagonistlabs.app/icons/lume.png</iconUrl>
+    <licenseUrl>https://github.com/limburatorul/lume/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/limburatorul/lume</projectSourceUrl>
+    <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/lume</packageSourceUrl>
+    <bugTrackerUrl>https://github.com/limburatorul/lume/issues</bugTrackerUrl>
+    <releaseNotes>https://github.com/limburatorul/lume/releases/tag/v0.1.10</releaseNotes>
+    <tags>app-launcher keyboard-launcher windows-11 alt-space productivity open-source windows foss</tags>
+    <summary>Free app launcher for Windows 11: Alt+Space, a few letters, Enter.</summary>
+    <description>Lume is a free, open-source app launcher for Windows 11, driven from the keyboard. Press Alt+Space (or the hotkey you choose), type a few letters and press Enter.
+
+One box does four jobs: it launches apps, with prefix, acronym and subsequence matching; it works out sums; it runs web searches; and it runs shell commands. Lume remembers which result you picked for each query, so the shorthand you type is yours from then on.
+
+Themes are plain .css files. Four are built in, and a theme applies the moment you save the file, with the launcher open.
+
+Lume comes as an installer or as a portable file. It has no account, no ads and no telemetry, and it is MIT licensed, with the source on GitHub.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
