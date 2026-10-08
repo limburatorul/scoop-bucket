@@ -1,0 +1,32 @@
+name: Update packages
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Get wingetcreate
+        shell: pwsh
+        run: |
+          Invoke-WebRequest https://aka.ms/wingetcreate/latest -OutFile "$env:RUNNER_TEMP\wingetcreate.exe"
+          Add-Content $env:GITHUB_PATH $env:RUNNER_TEMP
+      - name: Update Chocolatey, winget and Scoop
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CHOCO_API_KEY: ${{ secrets.CHOCO_API_KEY }}
+          WINGET_TOKEN: ${{ secrets.WINGET_TOKEN }}
+          PYTHONUTF8: '1'
+        run: python .github/update.py
+      - name: Commit bumped versions
+        if: always()
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add chocolatey bucket
+          git diff --cached --quiet || { git commit -m 'Packages follow the latest releases' && git push; }
