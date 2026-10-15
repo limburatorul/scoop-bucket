@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>glaze-player</id>
-    <version>2.0.5</version>
+    <version>2.1.0</version>
     <title>Glaze</title>
     <authors>Protagonist Labs</authors>
     <owners>protagonistlabs</owners>
@@ -13,10 +13,10 @@
     <projectSourceUrl>https://github.com/limburatorul/glaze</projectSourceUrl>
     <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/glaze-player</packageSourceUrl>
     <bugTrackerUrl>https://github.com/limburatorul/glaze/issues</bugTrackerUrl>
-    <releaseNotes>https://github.com/limburatorul/glaze/releases/tag/v2.0.5</releaseNotes>
-    <tags>youtube-desktop-app youtube-player windows-11 sponsorblock picture-in-picture open-source windows foss</tags>
+    <releaseNotes>https://github.com/limburatorul/glaze/releases/tag/v2.1.0</releaseNotes>
+    <tags>youtube-companion-app youtube-player windows-11 sponsorblock picture-in-picture open-source windows foss</tags>
     <summary>YouTube in its own window: the video fills it, SponsorBlock built in.</summary>
-    <description>Glaze is a free, open-source desktop player for YouTube on Windows 11. It opens youtube.com in a window of its own and restyles it; it is the real site, signed in or not.
+    <description>Glaze is a free, open-source companion app for YouTube on Windows 11. It opens youtube.com in a window of its own and restyles it; it is the real site, signed in or not.
 
 On the video page, suggestions, comments and the title block are hidden, so the video fills everything under the top bar, and each of them comes back with one switch. When the window is wider than the video, a blurred copy of the picture fills the margins in place of black bars.
 

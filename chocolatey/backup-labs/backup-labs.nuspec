@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>backup-labs</id>
-    <version>1.0.4</version>
+    <version>1.1.0</version>
     <title>Backup Labs</title>
     <authors>Protagonist Labs</authors>
     <owners>protagonistlabs</owners>
@@ -13,7 +13,7 @@
     <projectSourceUrl>https://github.com/limburatorul/backup-labs</projectSourceUrl>
     <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/backup-labs</packageSourceUrl>
     <bugTrackerUrl>https://github.com/limburatorul/backup-labs/issues</bugTrackerUrl>
-    <releaseNotes>https://github.com/limburatorul/backup-labs/releases/tag/v1.0.4</releaseNotes>
+    <releaseNotes>https://github.com/limburatorul/backup-labs/releases/tag/v1.1.0</releaseNotes>
     <tags>backup-software file-backup incremental-backup windows-11 external-hard-drive encrypted-backup open-source windows foss</tags>
     <summary>Free incremental backup to an external drive or NAS, any version back.</summary>
     <description>Backup Labs is free, open-source backup software for Windows 11. It backs up files, folders or whole drives to an external hard drive, a USB stick or a network share on a NAS, automatically.
