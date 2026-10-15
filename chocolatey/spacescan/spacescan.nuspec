@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>spacescan</id>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
     <title>SpaceScan</title>
     <authors>Protagonist Labs</authors>
     <owners>protagonistlabs</owners>
@@ -13,7 +13,7 @@
     <projectSourceUrl>https://github.com/limburatorul/spacescan</projectSourceUrl>
     <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/spacescan</packageSourceUrl>
     <bugTrackerUrl>https://github.com/limburatorul/spacescan/issues</bugTrackerUrl>
-    <releaseNotes>https://github.com/limburatorul/spacescan/releases/tag/v1.1.0</releaseNotes>
+    <releaseNotes>https://github.com/limburatorul/spacescan/releases/tag/v1.2.0</releaseNotes>
     <tags>disk-space-analyzer disk-usage folder-size duplicate-finder windows-11 ntfs open-source windows foss</tags>
     <summary>Free disk space analyzer: reads the NTFS MFT, maps a drive in seconds.</summary>
     <description>SpaceScan is a free, open-source disk space analyzer for Windows 10 and 11. It finds what is filling up a drive. On NTFS it reads the Master File Table directly, so a whole drive, a 10 TB one included, is mapped in seconds.
