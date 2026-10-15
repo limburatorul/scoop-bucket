@@ -2,4 +2,4 @@ $ErrorActionPreference = 'Stop'
 $toolsDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
 Get-ChocolateyWebFile -PackageName $env:ChocolateyPackageName `
   -FileFullPath (Join-Path $toolsDir 'CursorSelector.exe') `
-  -Url64bit 'https://github.com/limburatorul/cursor-selector/releases/download/v1.0.2/CursorSelector.exe' -Checksum64 'e9a1e31858d9bc80e2602d7e041dae989cdf1d9acf324457289ecc83573aa0d5' -ChecksumType64 'sha256'
+  -Url64bit 'https://github.com/limburatorul/cursor-selector/releases/download/v1.1.0/CursorSelector.exe' -Checksum64 '99ab2c23d638b45852c3d4675755dd03b1526ee00d43f00d9c782d5e80960e3e' -ChecksumType64 'sha256'
