@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>lume</id>
-    <version>0.2.1</version>
+    <version>0.2.2</version>
     <title>Lume</title>
     <authors>Protagonist Labs</authors>
     <owners>protagonistlabs</owners>
@@ -13,7 +13,7 @@
     <projectSourceUrl>https://github.com/limburatorul/lume</projectSourceUrl>
     <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/lume</packageSourceUrl>
     <bugTrackerUrl>https://github.com/limburatorul/lume/issues</bugTrackerUrl>
-    <releaseNotes>https://github.com/limburatorul/lume/releases/tag/v0.2.1</releaseNotes>
+    <releaseNotes>https://github.com/limburatorul/lume/releases/tag/v0.2.2</releaseNotes>
     <tags>app-launcher keyboard-launcher windows-11 alt-space productivity open-source windows foss</tags>
     <summary>Free app launcher for Windows 11: Alt+Space, a few letters, Enter.</summary>
     <description>Lume is a free, open-source app launcher for Windows 11, driven from the keyboard. Press Alt+Space (or the hotkey you choose), type a few letters and press Enter.
