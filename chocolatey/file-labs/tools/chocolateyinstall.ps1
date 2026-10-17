@@ -1,4 +1,4 @@
 $ErrorActionPreference = 'Stop'
 Install-ChocolateyPackage -PackageName $env:ChocolateyPackageName -FileType 'exe' `
-  -Url64bit 'https://github.com/limburatorul/file-labs/releases/download/v1.0.37/FileLabs-1.0.37-setup.exe' -Checksum64 'f9de3a72d4ff1d83756a205de5bd2f36c5035741af3ef0b61f57fd378c23a43a' -ChecksumType64 'sha256' `
+  -Url64bit 'https://github.com/limburatorul/file-labs/releases/download/v1.0.38/FileLabs-1.0.38-setup.exe' -Checksum64 '370edd3aa8fe021f913ca75772b3307f73c1cdbf50608f02b333f6f60df9c12d' -ChecksumType64 'sha256' `
   -SilentArgs '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /CURRENTUSER' -ValidExitCodes @(0)
