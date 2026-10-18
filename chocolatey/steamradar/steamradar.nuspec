@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>steamradar</id>
-    <version>0.7.2</version>
+    <version>0.7.3</version>
     <title>SteamRadar</title>
     <authors>Protagonist Labs</authors>
     <owners>protagonistlabs</owners>
@@ -13,7 +13,7 @@
     <projectSourceUrl>https://github.com/limburatorul/steamradar</projectSourceUrl>
     <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/steamradar</packageSourceUrl>
     <bugTrackerUrl>https://github.com/limburatorul/steamradar/issues</bugTrackerUrl>
-    <releaseNotes>https://github.com/limburatorul/steamradar/releases/tag/v0.7.2</releaseNotes>
+    <releaseNotes>https://github.com/limburatorul/steamradar/releases/tag/v0.7.3</releaseNotes>
     <tags>steam-deals price-drop-alert gog-deals epic-free-games game-deals price-tracker windows foss</tags>
     <summary>Free alerts when a Steam or GOG game goes free or under your price.</summary>
     <description>SteamRadar is a free, open-source Windows app that watches Steam, GOG and Epic and tells you when a game goes free or drops under the price you set.

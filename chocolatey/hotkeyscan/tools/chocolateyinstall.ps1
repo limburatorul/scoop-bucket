@@ -2,4 +2,4 @@ $ErrorActionPreference = 'Stop'
 $toolsDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
 Get-ChocolateyWebFile -PackageName $env:ChocolateyPackageName `
   -FileFullPath (Join-Path $toolsDir 'HotkeyScan.exe') `
-  -Url64bit 'https://github.com/limburatorul/hotkeyscan/releases/download/v1.0.8/HotkeyScan.exe' -Checksum64 'fdf9b75af99e4f19046926e74d02edd7ff3be0e52321c0747b838490dfa6bbba' -ChecksumType64 'sha256'
+  -Url64bit 'https://github.com/limburatorul/hotkeyscan/releases/download/v1.0.9/HotkeyScan.exe' -Checksum64 '6b4ece2b6832702b6a69b64aab13b02096b1352d5a5b2e4f43d2cc625a0b9a3c' -ChecksumType64 'sha256'
