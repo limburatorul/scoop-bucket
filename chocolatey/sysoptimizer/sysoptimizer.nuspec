@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>sysoptimizer</id>
-    <version>1.16.0</version>
+    <version>1.17.0</version>
     <title>Sysoptimizer</title>
     <authors>Protagonist Labs</authors>
     <owners>protagonistlabs</owners>
@@ -13,7 +13,7 @@
     <projectSourceUrl>https://github.com/limburatorul/sysoptimizer</projectSourceUrl>
     <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/sysoptimizer</packageSourceUrl>
     <bugTrackerUrl>https://github.com/limburatorul/sysoptimizer/issues</bugTrackerUrl>
-    <releaseNotes>https://github.com/limburatorul/sysoptimizer/releases/tag/v1.16.0</releaseNotes>
+    <releaseNotes>https://github.com/limburatorul/sysoptimizer/releases/tag/v1.17.0</releaseNotes>
     <tags>windows-11-debloat pc-tweak-tool windows-tweaks cleanup debloat-tool open-source windows foss</tags>
     <summary>Free Windows debloat tool with 17 tweaks you can revert.</summary>
     <description>Sysoptimizer is a free, open-source tune-up and debloat tool for Windows 11 and 10 that shows what it changes and can change it back.
