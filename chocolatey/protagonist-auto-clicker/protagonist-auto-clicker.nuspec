@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>protagonist-auto-clicker</id>
-    <version>1.0.11</version>
+    <version>1.1.0</version>
     <title>Auto Clicker</title>
     <authors>Protagonist Labs</authors>
     <owners>protagonistlabs</owners>
@@ -13,7 +13,7 @@
     <projectSourceUrl>https://github.com/limburatorul/auto-clicker</projectSourceUrl>
     <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/protagonist-auto-clicker</packageSourceUrl>
     <bugTrackerUrl>https://github.com/limburatorul/auto-clicker/issues</bugTrackerUrl>
-    <releaseNotes>https://github.com/limburatorul/auto-clicker/releases/tag/v1.0.11</releaseNotes>
+    <releaseNotes>https://github.com/limburatorul/auto-clicker/releases/tag/v1.1.0</releaseNotes>
     <tags>auto-clicker autoclicker mouse-automation macro windows-11 open-source windows foss</tags>
     <summary>Free auto clicker with routes and scripts that wait for an image.</summary>
     <description>Auto Clicker is a free, open-source auto clicker for Windows 11 and 10.

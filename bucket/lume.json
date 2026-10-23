@@ -1,11 +1,11 @@
 {
-    "version": "0.4.1",
+    "version": "0.5.0",
     "description": "Keyboard launcher for Windows: fuzzy app search that learns, calculator, web search and shell, themed in plain CSS.",
     "homepage": "https://protagonistlabs.app/lume/",
     "license": "MIT",
-    "notes": "Settings live in %APPDATA%\\Lume, so they survive updates and uninstalls.",
-    "url": "https://github.com/limburatorul/lume/releases/download/v0.4.1/Lume-0.4.1-portable.exe#/Lume.exe",
-    "hash": "3dbae6cb9f2f089595484b6aa22df55548e98dc199c0922fcd6f881153e0bb51",
+    "notes": "Settings live in %APPDATA%\\ProtagonistLabs\\Lume, so they survive updates and uninstalls.",
+    "url": "https://github.com/limburatorul/lume/releases/download/v0.5.0/Lume-0.5.0-portable.exe#/Lume.exe",
+    "hash": "1fce7db70ac5a8cd2aba5b1d52a24b15a66d2850898a8a756fc4d4b178e08b64",
     "shortcuts": [
         [
             "Lume.exe",

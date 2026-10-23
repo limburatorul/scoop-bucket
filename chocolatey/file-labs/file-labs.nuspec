@@ -24,7 +24,7 @@ Copies and moves go through its own engine. It scans first, so the totals and ev
 
 File Labs can take over as the default file manager for folders, drives and Win+E, for your user only, and hands the role back when you switch it off.
 
-Per-user installer. No account and no telemetry; the only connection it makes is an update check on GitHub. MIT licence.</description>
+Installs for all users in Program Files (asks for administrator rights). No account and no telemetry; the only connection it makes is an update check on GitHub. MIT licence.</description>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

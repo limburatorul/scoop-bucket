@@ -4,16 +4,17 @@
     choco pack <id>/<id>.nuspec ; choco push <id>.<ver>.nupkg --source https://push.chocolatey.org/
 
 Texts come from site/listings.py (the same ones every directory gets). Installer kinds match the
-winget manifests: Inno and NSIS installers run silent per user, the rest are portable exes that
+winget manifests: Inno and NSIS installers run silent for the whole machine (Program Files, since
+ecosystem v3), the rest are portable exes that
 Chocolatey shims and removes on uninstall.
 """
 import html, json, os, subprocess, sys
 
-sys.path.insert(0, r'D:\Game Browser\site')
+sys.path.insert(0, r'G:\Claude Projects\Game Browser\site')
 from listings import LISTINGS  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-SILENT = {'inno': '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /CURRENTUSER', 'nsis': '/S /currentuser'}
+SILENT = {'inno': '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-', 'nsis': '/S'}
 # app: (choco id, file pattern in the release, kind)
 APPS = {
     'lume': ('lume', '-x64.exe', 'nsis'),
