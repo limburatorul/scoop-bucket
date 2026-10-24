@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>sysoptimizer</id>
-    <version>1.20.0</version>
+    <version>1.21.1</version>
     <title>Sysoptimizer</title>
     <authors>Protagonist Labs</authors>
     <owners>protagonistlabs</owners>
@@ -13,14 +13,14 @@
     <projectSourceUrl>https://github.com/limburatorul/sysoptimizer</projectSourceUrl>
     <packageSourceUrl>https://github.com/limburatorul/scoop-bucket/tree/main/chocolatey/sysoptimizer</packageSourceUrl>
     <bugTrackerUrl>https://github.com/limburatorul/sysoptimizer/issues</bugTrackerUrl>
-    <releaseNotes>https://github.com/limburatorul/sysoptimizer/releases/tag/v1.20.0</releaseNotes>
+    <releaseNotes>https://github.com/limburatorul/sysoptimizer/releases/tag/v1.21.1</releaseNotes>
     <tags>windows-11-debloat pc-tweak-tool windows-tweaks cleanup debloat-tool open-source windows foss</tags>
     <summary>Free Windows debloat tool with 17 tweaks you can revert.</summary>
     <description>Sysoptimizer is a free, open-source tune-up and debloat tool for Windows 11 and 10 that shows what it changes and can change it back.
 
 It has 17 tweaks. Each one shows whether it is already applied, and each can be reverted from the same tab. The cleanup measures seven folders before it deletes anything, among them the user and Windows temp folders and the Windows Update cache.
 
-The other tabs cover ten services, with their state and a line on what each one does, startup programs, the removal of pre-installed apps, installs and updates through winget, and DNS. Two more find duplicate files and the largest files in a folder, and one uninstalls programs with their own uninstallers.
+The other tabs cover ten services, with their state and a line on what each one does, startup programs, the removal of pre-installed apps, installs and updates through winget, and DNS. Two more find duplicate files and the largest files in a folder.
 
 It also records what every app used, kept on the PC: App history shows one app over an hour, a day, a week or a month, and exports it as CSV. The Hardware tab reads the batteries of Bluetooth devices, Xbox, DualShock 4 and DualSense controllers and Logitech receivers, read only.
 
