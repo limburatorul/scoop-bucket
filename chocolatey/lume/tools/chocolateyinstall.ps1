@@ -1,4 +1,4 @@
 $ErrorActionPreference = 'Stop'
 Install-ChocolateyPackage -PackageName $env:ChocolateyPackageName -FileType 'exe' `
-  -Url64bit 'https://github.com/limburatorul/lume/releases/download/v0.5.1/Lume-0.5.1-x64.exe' -Checksum64 '48dcda64bb334884bfeaae43a1aa62861f0eb73443632cf5526ed2dbbea6a301' -ChecksumType64 'sha256' `
+  -Url64bit 'https://github.com/limburatorul/lume/releases/download/v0.5.4/Lume-0.5.4-x64.exe' -Checksum64 '3a18f0998e9d5da5158066497cd58d3832f804deb44269cda241f845fa2f52cc' -ChecksumType64 'sha256' `
   -SilentArgs '/S' -ValidExitCodes @(0)
